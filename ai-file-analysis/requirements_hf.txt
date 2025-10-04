@@ -1,0 +1,22 @@
+# Hugging Face AI-Powered Description Generator Requirements
+
+# Core Hugging Face libraries
+transformers>=4.35.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Image processing
+Pillow>=10.0.0
+
+# Specific models (will be downloaded automatically)
+# - Salesforce/blip-image-captioning-base (image captioning)
+# - facebook/bart-large-mnli (zero-shot classification)
+
+# Existing dependencies
+pandas>=2.0.0
+openpyxl>=3.1.0
+pytesseract>=0.3.10
+PyPDF2>=3.0.0
+
+# Optional: For GPU acceleration
+# Install CUDA-enabled PyTorch from: https://pytorch.org/get-started/locally/
